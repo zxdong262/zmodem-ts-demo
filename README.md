@@ -1,5 +1,7 @@
 # zmodem-ts-demo
 
+[English](README.md) | [中文](README_cn.md)
+
 A demo project showcasing [zmodem-ts](https://github.com/zxdong262/zmodem-ts) - a TypeScript implementation of the Zmodem file transfer protocol for web terminals.
 
 This web-based terminal application connects to an SSH server via WebSocket and demonstrates Zmodem file transfers using zmodem-ts.

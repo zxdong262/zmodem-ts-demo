@@ -1,0 +1,59 @@
+{
+  "name": "zmodem-ts-demo",
+  "version": "1.0.0",
+  "description": "Demo project showcasing zmodem-ts for Zmodem file transfers in web terminals. A web-based terminal application that connects to an SSH server via WebSocket, supporting Zmodem file transfers using zmodem-ts.",
+  "keywords": [
+    "zmodem",
+    "zmodem-ts",
+    "demo",
+    "terminal",
+    "file-transfer"
+  ],
+  "homepage": "https://github.com/zxdong262/zmodem-ts-demo#readme",
+  "bugs": {
+    "url": "https://github.com/zxdong262/zmodem-ts-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/zmodem-ts-demo.git"
+  },
+  "license": "MIT",
+  "author": "ZHAO Xudong <zxdong@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --config build/vite.config.ts",
+    "build": "vite build --config build/vite.config.ts",
+    "preview": "vite preview",
+    "backend": "ts-node src/server/index.ts",
+    "lint": "ts-standard --verbose",
+    "fix": "ts-standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "ssh2": "^1.14.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.9.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/ws": "^8.5.8",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.5.0",
+    "standard": "^17.1.0",
+    "ts-node": "^10.9.1",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.3.3",
+    "vite": "^7.3.1",
+    "zmodem-ts": "^1.0.6"
+  }
+}

@@ -1,5 +1,9 @@
-import Sentry from 'zmodem-ts/dist/zsentry.js'
+import Zmodem from 'zmodem-ts'
 import type { Terminal } from '@xterm/xterm'
+
+const {
+  Sentry
+} = Zmodem
 
 export default class AddonZmodem {
   _disposables: any[] = []
